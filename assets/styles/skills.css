@@ -1,0 +1,124 @@
+#skills{
+    margin-top: -100px;
+}
+#skills>div>h2{
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    text-shadow: 2px 3px 6px #ffffff;
+}
+#skilsList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#skilsList>div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 24px;
+    box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
+    border-radius: 30px;
+    width: 300px;
+    height: 300px ;
+    margin: 10px;
+    justify-content: space-between;
+    color: white;
+}
+#skilsList>div>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px;
+    border: 4px solid #f7f718;
+}
+#skilsList2>h4{
+    font-size: 30px;
+}
+/*Tab Size*/
+@media all and (max-width: 768px) {
+    #skills{
+        margin-top: -100px;
+    }
+    #skills>div>h2{
+        text-align: center;
+        font-size: 36px;
+        color: #ffffff;
+        text-shadow: 2px 3px 6px #ffffff;
+    }
+    #skilsList{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #skilsList>div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 24px;
+        box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
+        border-radius: 30px;
+        width: 250px;
+        height: 250px ;
+        margin: 10px;
+        justify-content: space-between;
+        color: white;
+    }
+    #skilsList>div>img{
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        padding: 5px;
+        margin: 5px;
+        border: 3px solid #f7f718;
+    }
+    #skilsList2>h4{
+        font-size: 26px;
+    }
+}
+
+/*Mobile Size*/
+@media all and (max-width: 435px) {
+    #skills{
+        margin-top: -100px;
+    }
+    #skills>div>h2{
+        text-align: center;
+        font-size: 36px;
+        color: #ffffff;
+        text-shadow: 2px 3px 6px #ffffff;
+    }
+    #skilsList{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #skilsList>div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 24px;
+        box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
+        border-radius: 30px;
+        width: 225px;
+        height: 225px ;
+        margin: 10px;
+        justify-content: space-between;
+        color: white;
+    }
+    #skilsList>div>img{
+        width: 45px;
+        height: 45px;
+        border-radius: 25px;
+        padding: 5px;
+        margin: 5px;
+        border: 3px solid #f7f718;
+    }
+    #skilsList2>h4{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,57 @@
+#assignment-part{
+    padding: 100px;
+    margin-top: -105px;
+}
+#assignment-part>div>h2{
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    text-shadow: 2px 3px 6px #ffffff;
+}
+
+#assignments{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#assignments>div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 3px 5px 0px rgb(95, 96, 96);
+    border-radius: 30px;
+    width: 200px;
+    height: 260px;
+    margin: 20px;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center
+}
+#assignment-part>div>h2{
+    text-align: center;
+    font-size: 32px;
+}
+.a_img{
+    width: 25px;
+    height: 25px;
+}
+#assignments>div>h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#assignments>div>p{
+    font-size: 17px;
+}
+.btn{
+    background-color: #f7f718;
+    color: #000000;
+    width: 95px;
+    height: 28px;
+    border-radius: 3rem;
+    transition: 0.5s ease;
+    align-self: center;
+}
+.btn>a{
+    text-decoration: none;
+}
