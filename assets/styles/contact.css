@@ -113,6 +113,9 @@
     #contact-section{
         margin-left: -155px;
     }
+    #contact{
+        margin-top: -120px;
+    }
 }
 
 /*Mobile Size*/
@@ -160,5 +163,8 @@
     }
     #contact-section{
         margin-left: -100px;
+    }
+    #contact{
+        margin-top: -70px;
     }
 }
