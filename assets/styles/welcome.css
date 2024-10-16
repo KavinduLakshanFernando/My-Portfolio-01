@@ -7,7 +7,7 @@
 }
 #welcome-text{
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 20px;
     color: #ffffff;
 }
 #welcome-text>h4{
@@ -116,10 +116,9 @@
         margin-top: 20px;
         margin-left: -100px;
     }
-    /*#my-image1{*/
-    /*    margin-top: -295px;*/
-    /*    margin-left: 135px;*/
-    /*}*/
+    #my-image1{
+        margin-left: 150px;
+    }
     #welcome-text>h4{
         font-size: 35px;
         font-family:sans-serif;
