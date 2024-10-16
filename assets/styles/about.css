@@ -73,11 +73,9 @@
 @media all and (max-width: 768px) {
     #about h2{
         font-size: 30px;
-        text-align: center;
     }
     #my-image2>img{
         width: 200px;
-        /* justify-content: center; */
         margin-left: 110px;
         margin-top: 25px;
     }
