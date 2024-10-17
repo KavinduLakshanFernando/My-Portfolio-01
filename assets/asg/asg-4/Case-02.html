@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-02</title>
+</head>
+<style>
+    body{
+        background-color: deepskyblue;
+    }
+    #circle{
+        border-radius: 100%;
+        background-color: gray;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    h1{
+        height: max-content;
+        width: max-content;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    div::before{
+        content: "";
+        border: 15px solid white;
+        border-radius: 100%;
+        border-top-color: red;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    div:hover::before{
+        transform: rotate(360deg);
+        transition-duration: 3s;
+
+    }
+</style>
+<body>
+    <div id="circle">
+        <h1>RWAD</h1>
+    </div>
+</body>
+</html>

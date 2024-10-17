@@ -50,7 +50,7 @@
     }
 
 }
-#s-icons>img{
+#s-icons>a>img{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,7 +136,7 @@
         margin-top: 75px;
         margin-left: -85px;
     }
-    #s-icons>img{
+    #s-icons>a>img{
         margin: 15px;
     }
 }

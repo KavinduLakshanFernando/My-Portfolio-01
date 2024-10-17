@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-01</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    body>section{
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        justify-content: start;
+        align-items: center;
+    }
+
+    body>section>div{
+        position: relative;
+        background-color: #a323d1;
+        height: 50px;
+        width: 200px;
+        box-shadow: 1px 2px 6px 0;
+        left: -65%;
+        transition-duration: 1s;
+    }
+
+    body>section>div>img {
+        position: absolute;
+        height: 40px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    div:hover{
+        left: 0;
+    }
+    body>section>div>label {
+        position: absolute;
+        height: 15px;
+        left: 15px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        color: white;
+    }
+</style>
+<body>
+    <section>
+        <div>
+            <label>Menu one</label>
+            <img src="images/phone-book.png">
+        </div>
+
+        <div>
+            <label>Menu two</label>
+            <img src="images/lorry.png">
+        </div>
+
+        <div>
+            <label>Menu three</label>
+            <img src="images/menu-03.png">
+        </div>
+
+        <div>
+            <label>Menu four</label>
+            <img src="images/menu-04.png">
+        </div>
+
+        <div>
+            <label>Menu five</label>
+            <img src="images/menu-05.png">
+        </div>
+    </section>
+</body>
+</html>
