@@ -144,7 +144,7 @@
         margin-left: -16vw;
     }
     #welcome-text>p{
-        /*display: none;*/
+        display: none;
         /*font-size: 18px;*/
         /*margin-top: -4vh;*/
         /*margin-left: 3vw;*/
