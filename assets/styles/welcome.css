@@ -14,6 +14,7 @@
     font-size: 55px;
     margin-top: 10px;
     font-family:sans-serif;
+    margin-left: -110px;
 }
 #welcome-text>h3{
     font-size: 50px;
@@ -79,8 +80,8 @@
 /*Tab Size*/
 @media all and (max-width: 768px) {
     #welcome-text{
-        margin-top: -10px;
-        margin-left: -135px;
+        margin-top: -13vh;
+        margin-left: -12vw;
     }
     #s-icons{
         margin-top: 20px;
@@ -92,6 +93,7 @@
     }
     #welcome-text>h4{
         font-size: 45px;
+        margin-left: -15vh;
     }
     #welcome-text>h3{
         font-size: 40px;
@@ -114,11 +116,11 @@
 /*Phone Size*/
 @media all and (max-width: 435px) {
     #welcome-text{
-        margin-top: -50px;
+        margin-top: -3vh;
         margin-left: -4vw;
     }
     #s-icons{
-        margin-top: -7px;
+        margin-top: 3vh;
         margin-left: -129px
     }
     #my-image1{
@@ -127,6 +129,7 @@
     #welcome-text>h4{
         font-size: 30px;
         font-family:sans-serif;
+        margin-left: -5vw;
     }
     #welcome-text>h3{
         margin-top: -8px;
@@ -134,13 +137,13 @@
     }
     #welcome-text>p{
         font-size: 16px;
-        margin-top: -75px;
+        margin-top: -4vh;
     }
     #my-image1>img{
         width: 200px;
         height: 200px;
-        margin-top: 98px;
-        margin-left: -178px;
+        margin-top: 16vh;
+        margin-left: -28vw;
     }
     #s-icons>a>img{
         margin: 15px;

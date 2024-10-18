@@ -16,11 +16,10 @@ header{
 }
 header>h4{
     margin-top: 12px;
-    margin-left: 10px;
+    margin-left: -800px;
     font-size: 20px;
     font-family: quantico;
     color: #ffffff;
-
 }
 header>nav{
     top: 8px;
@@ -47,38 +46,9 @@ nav>a{
 nav>a:hover{
     color: #f7f718;
 }
-nav>a:active{
+nav>a:active {
     color: #f7f718;
 }
-
-/*Tab Size*/
-@media all and (max-width: 768px) {
-
-}
-/*Mobile Size*/
-@media all and (max-width: 435px) {
-
-    header{
-        height: 40px;
-        width: 100%;
-        border-bottom: 3px solid white;
-        position: fixed;
-        backdrop-filter: blur(18px);
-        background: transparent;
-
-    }
-    header>h4{
-        margin-top: 12px;
-        margin-left: 10px;
-        font-size: 13px;
-        font-family: quantico;
-        color: #ffffff;
-    }
-
-}
-
-
-
 
 /* Menu icon for mobile and tablet, positioned on the right side */
 .menu-icon {
@@ -88,15 +58,14 @@ nav>a:active{
     cursor: pointer;
 }
 
-/* Sidebar styles */
+
 .sidebar {
     margin-top: -55px;
-    /*height: 100%;*/
-    width: 0; /* Initially hidden */
+    width: 0;
     position: fixed;
     z-index: 5000;
     top: 0;
-    right: 0; /* Change left to right */
+    right: 0;
     background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
@@ -105,7 +74,7 @@ nav>a:active{
 }
 
 .sidebar a {
-    padding: 8px 8px 8px 32px; /* Adjust padding if needed */
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 1rem;
     color: black;
@@ -119,9 +88,9 @@ nav>a:active{
     line-height: 2;
 }
 
-/* When the sidebar is open */
+
 .sidebar.open {
-    width: 250px; /* Width when opened */
+    width: 250px;
 }
 
 
@@ -133,20 +102,24 @@ nav>a:active{
     display: none;
 }
 
-/* Responsive styles for tablet and mobile */
 @media all and (max-width: 768px) {
     nav {
-        display: none; /* Hide the top navigation bar */
+        display: none;
         position: fixed;
     }
-
+    #nav-section{
+        display: none;
+    }
+    #header-name{
+        display: none;
+    }
     .home-page-logo-nav {
 
         width: 100%;
-        height: 70px;
+        height: 50px;
         top: 0;
         left: 0;
-        background-color: black;
+        background-color: #191919;
         position: fixed;
         z-index: 800;
         border-bottom: 1px solid #e9ecef;
@@ -160,20 +133,20 @@ nav>a:active{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        position: relative;
-        padding: 0 20px; /* Add padding to the header */
+        position: fixed;
+        padding: 0 20px;
     }
 
 
     .logo {
-        color: black; /* Text color */
-        font-size: 1.5rem; /* Adjust font size as needed */
-        margin: 0; /* Remove default margin */
-        display: block; /* Show the logo on mobile/tablet */
-        position: fixed; /* Allow positioning */
-        left: 20px; /* Align to the left side with some padding */
-        top: 35px; /* Center vertically */
-        transform: translateY(-50%); /* Adjust to be exactly centered */
+        color: #191919;
+        font-size: 1.5rem;
+        margin: 0;
+        display: block;
+        position: fixed;
+        left: 10px;
+        top: 30px;
+        transform: translateY(-50%);
 
         font-family: "Plus Jakarta Sans", sans-serif;
         font-optical-sizing: auto;
@@ -185,7 +158,7 @@ nav>a:active{
     .menu-icon {
         display: block;
         position: fixed;
-        top: 15px;
+        top: 5px;
         right: 60px;
         z-index: 2;
     }
