@@ -116,38 +116,52 @@
 /*Phone Size*/
 @media all and (max-width: 435px) {
     #welcome-text{
-        margin-top: -3vh;
-        margin-left: -12vw;
+        /*margin-top: -3vh;*/
+        /*margin-left: -12vw;*/
     }
     #s-icons{
-        margin-top: 3vh;
-        margin-left: -129px
+        /*margin-top: 3vh;*/
+        /*margin-left: -129px*/
+        margin-top: 20px;
+        margin-left: -210px;
     }
     #my-image1{
-        margin-left: 170px;
+        /*margin-left: 170px;*/
     }
     #welcome-text>h4{
+        /*font-size: 30px;*/
+        /*font-family:sans-serif;*/
+        /*margin-left: -7vw;*/
         font-size: 30px;
-        font-family:sans-serif;
-        margin-left: -7vw;
+        margin-left: -40vw;
     }
     #welcome-text>h3{
-        margin-top: -5px;
-        margin-left: 14px;
-        font-size: 22px;
+        /*margin-top: -5px;*/
+        /*margin-left: 14px;*/
+        /*font-size: 22px;*/
+        font-size: 33px;
+        margin-top: -1vh;
+        margin-left: -16vw;
     }
     #welcome-text>p{
+        /*font-size: 18px;*/
+        /*margin-top: -4vh;*/
+        /*margin-left: 3vw;*/
         font-size: 18px;
-        margin-top: -4vh;
-        margin-left: 3vw;
+        margin-left: -12vh;
+        margin-top: -7vh;
     }
     #my-image1>img{
-        width: 200px;
-        height: 200px;
-        margin-top: 16vh;
-        margin-left: -28vw;
+        /*width: 200px;*/
+        /*height: 200px;*/
+        /*margin-top: 16vh;*/
+        /*margin-left: -28vw;*/
+        width: 60vw;
+        height: 45vh;
+        margin-top: 8vh;
+        margin-left: -23vw;
     }
     #s-icons>a>img{
-        margin: 15px;
+        /*margin: 15px;*/
     }
 }
