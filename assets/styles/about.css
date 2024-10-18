@@ -71,10 +71,6 @@
     align-items: center;
 }
 
-
-
-
-
 @media all and (max-width: 1024px) {
     .aboutme-p {
         width: 47vw;
@@ -123,23 +119,23 @@
 
 
 /*Tab Size*/
-/*@media all and (max-width: 768px) {*/
-/*    #about h2{*/
+@media all and (max-width: 768px) {
+    #about h2{
 
-/*    }*/
-/*    #my-image2>img{*/
+    }
+    #my-image2>img{
 
-/*    }*/
-/*    #details>p{*/
+    }
+    #details>p{
 
-/*    }*/
-/*    #btn>a>button{*/
+    }
+    #btn>a>button{
 
 
-/*    }*/
-/*    #btn{*/
+    }
+    #btn{
 
-/*    }*/
-/*}*/
+    }
+}
 
 

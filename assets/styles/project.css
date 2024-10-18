@@ -5,8 +5,8 @@
     text-shadow: 2px 3px 6px #ffffff;
 }
 #project{
-    padding: 100px;
-    margin-top: -180px;
+    padding: 50px;
+    margin-top: -100px;
 }
 #container-p{
     display: flex;
@@ -35,7 +35,7 @@
     }
 
     #project{
-        margin-top: -170px;
+        margin-top: -10vh;
     }
 
     #container-p>div{
@@ -53,7 +53,7 @@
 
     #project{
         padding: 40px;
-        margin-top: -95px;
+        margin-top: -40px;
     }
     #container-p>div{
         width: 235px;

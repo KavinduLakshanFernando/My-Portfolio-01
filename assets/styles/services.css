@@ -1,8 +1,7 @@
 #service{
-    padding: 50px;
-    margin-top: -160px;
-
+    margin-top: -80px;
 }
+
 #service>div>h2{
     text-align: center;
     font-size: 36px;
@@ -19,37 +18,67 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 20px;
     box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
     border-radius: 30px;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-
     color: #ffffff;
-    padding: 50px;
+    width: 23vw;
+    height: 36vh;
+    margin: 3vw;
+
 }
 
 #card>div>img, h4{
+    text-align: center;
     margin: auto;
 }
-@media all and (min-width: 435px) and (max-width: 768px) {
+
+@media all and (max-width: 768px) {
+    #service{
+        margin-top: -90px;
+    }
+    #card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
     #card>div{
-        width: 130px;
-        height: 150px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
+        border-radius: 30px;
+        color: #ffffff;
+        width: 30vw;
+        height: 30vh;
+        align-content: center;
+        justify-content: center;
+        margin: 4vw;
     }
-    #service>div>h2{
-        font-size: 30px;
-    }
+
 }
 @media all and (max-width: 435px) {
+    #service{
+        margin-top: -115px;
+    }
+    #card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center
+    }
+
     #card>div{
-        width: 170px;
-        height: 150px;
-        font-size: 20px;
+        box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
+        border-radius: 30px;
+        color: #ffffff;
+        width: 51vw;
+        height: 45vh;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin: 4vw
     }
-    #service>div>h2{
-        font-size: 24px;
-    }
+
 
 }
