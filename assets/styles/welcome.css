@@ -80,7 +80,7 @@
 /*Tab Size*/
 @media all and (max-width: 768px) {
     #welcome-text{
-        margin-top: -13vh;
+        margin-top: -4vh;
         margin-left: -12vw;
     }
     #s-icons{
