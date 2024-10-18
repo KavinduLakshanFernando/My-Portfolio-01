@@ -103,38 +103,44 @@
         width: 300px;
         height: 300px;
     }
+    #welcome-section{
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+        align-items: center;
+    }
 }
 
 /*Phone Size*/
 @media all and (max-width: 435px) {
     #welcome-text{
-        margin-top: -10px;
-        margin-left: -55px;
+        margin-top: -50px;
+        margin-left: -4vw;
     }
     #s-icons{
-        margin-top: 20px;
-        margin-left: -100px;
+        margin-top: -7px;
+        margin-left: -129px
     }
     #my-image1{
         margin-left: 170px;
     }
     #welcome-text>h4{
-        font-size: 35px;
+        font-size: 30px;
         font-family:sans-serif;
     }
     #welcome-text>h3{
         margin-top: -8px;
-        font-size: 30px;
+        font-size: 22px;
     }
     #welcome-text>p{
-        font-size: 17px;
+        font-size: 16px;
         margin-top: -30px;
     }
     #my-image1>img{
         width: 200px;
         height: 200px;
-        margin-top: 75px;
-        margin-left: -85px;
+        margin-top: 98px;
+        margin-left: -178px;
     }
     #s-icons>a>img{
         margin: 15px;

@@ -13,9 +13,11 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
-#about>section{
+.about-me-main-content-section {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 #my-image2>img{
@@ -38,22 +40,17 @@
     }
 
 }
-#details>p{
-    font-family: Georgia ;
-    margin-left: 350px;
-    margin-top: -310px;
+.aboutme-p{
+    width: 47vw;
+    font-family: Georgia;
     font-size: 1.5rem;
     color: #ffffff;
     box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
-    width: 780px;
-    height: 200px;
     border-radius: 30px;
-    padding: 10px;
-
+    text-align: center;
+    padding: 20px 10px 20px 10px;
 }
 #btn{
-    margin-top: -155px;
-    margin-left: 450px;
 
 }
 .button{
@@ -63,67 +60,86 @@
     height: 28px;
     border-radius: 3rem;
     transition: 0.5s ease;
+    margin-top: 40px;
 }
 .button:hover{
     border: 2px solid #ffffff;
 }
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
-/*Tab Size*/
-@media all and (max-width: 768px) {
-    #about h2{
-        font-size: 30px;
-    }
-    #my-image2>img{
-        width: 200px;
-        margin-left: 110px;
-        margin-top: 25px;
-    }
-    #details>p{
-        width: 572px;
-        margin-top: 55px;
-        margin-left: -29px;
-        font-size: 25px;
-        padding: 30px;
-    }
-    #btn>a>button{
-        margin-top: 10px;
+
+
+
+@media all and (max-width: 1024px) {
+    .aboutme-p {
+        width: 47vw;
+        font-size: 1rem;
 
     }
-    #btn{
-        margin-top: -500px;
-        margin-left: 375px;
+    #my-image2>img {
+        width: 20vw;
+    }
+    #details{
+        margin-left: 23px;
+
+    }
+
+    .about-me-main-content-section {
+        margin-top: 50px;
     }
 }
-/*mobile Size*/
+
+
+/*Mobile Size*/
 @media all and (max-width: 435px) {
-    #about h2 {
-        font-size: 24px;
-        text-align: center;
+    #details {
+        margin: 0;
     }
 
     #my-image2 > img {
-        width: 175px;
-        /* justify-content: center; */
-        margin-left: -65px;
-        margin-top: 25px;
+        margin: 0;
+        width: 53vw;
+        border-radius: 34px;
     }
 
-    #details > p {
-        width: 345px;
-        margin-top: 55px;
-        margin-left: -78px;
-        font-size: 21px;
-        padding: 20px;
+    .aboutme-p {
+        margin-top: 44px;
+        width: 58vw;
+        font-size: 1rem;
     }
-
-    #btn>a>button {
-        margin-top: 10px;
-    }
-
-    #btn {
-        margin-top: -480px;
-        margin-left: 150px;
+    .about-me-main-content-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 }
+
+
+/*Tab Size*/
+/*@media all and (max-width: 768px) {*/
+/*    #about h2{*/
+
+/*    }*/
+/*    #my-image2>img{*/
+
+/*    }*/
+/*    #details>p{*/
+
+/*    }*/
+/*    #btn>a>button{*/
+
+
+/*    }*/
+/*    #btn{*/
+
+/*    }*/
+/*}*/
+
 
